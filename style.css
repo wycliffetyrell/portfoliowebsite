@@ -1,0 +1,334 @@
+.container{
+    width: 100%;
+    background-color: #f5f5f4;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%; /* Adjust container width for smaller screens */
+    }
+  }
+
+  img {
+    max-width: 100%; /* Make images responsive */
+  }
+
+.navbar{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navlinks{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+.navlinks li{
+    padding-right: 1.2rem;
+    text-decoration: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks li a:hover{
+    text-decoration: line-through;
+    text-decoration-color: #d39133;
+    text-decoration-thickness: 0.1rem;
+    font-weight: bold;
+   
+    
+}
+
+.navlinks li a.active{
+    text-decoration: line-through;
+    text-decoration-color: #d39133;
+    text-decoration-thickness: 0.1rem;
+    font-weight: bold;
+   
+}
+
+.image{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 25rem; /* Adjust width as needed */
+    height: 25rem; /* Adjust height as needed */
+    border-radius: 50rem; /* Half of the height to create a semi-circle effect */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Position for the image */
+}
+.image img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default spacing */
+  }
+
+.about{
+    position: relative;
+    text-align: center;
+    margin: 0 15rem;
+}
+
+.about h3 {
+    color: #d39133;
+}
+
+.z-underline {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .z-underline::before,
+  .z-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Adjust as needed to control the distance from the text */
+    width: 50%; /* Adjust as needed to control the width of the "Z" segments */
+    height: 4px; /* Adjust as needed to control the thickness of the underline */
+    background-color: #000; /* Adjust as needed to control the color of the underline */
+  }
+  
+  .z-underline::before {
+    left: 0;
+  }
+  
+  .z-underline::after {
+    right: 0;
+  }
+
+ .footer{
+    margin-top: auto;
+   
+ }
+  .copyright{
+    text-align: center;
+    margin:5rem;
+
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
+    gap: 20px; /* Adjust as needed */
+    padding: 20px;
+  }
+  
+  /* Styles for each project item */
+  .project-item {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    border-radius: 8px; /* Example border radius */
+    border-color: #d39133;
+  }
+
+  
+  
+.link {
+    text-decoration: none;
+    color: #d39133;
+}
+
+.link:hover{
+    
+    text-decoration: line-through;
+    text-decoration-color: #000;
+    text-decoration-thickness: 0.1rem;
+    font-weight: bold;
+   
+    
+}
+
+.project{
+    position: relative;
+    text-align: center;
+    margin: 0 15rem;
+}
+
+.project h3 {
+    color: #d39133;
+}
+
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d39133;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #925c0f;
+  }
+  
+  .socials{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+
+
+  }
+  .socials li {
+    
+    text-decoration: none;
+    padding: 2rem;
+    
+    
+
+  }
+  .socials li a:hover{
+    color: #d39133;
+    
+
+  }
+  
+
+
+/* Google fonts    */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
