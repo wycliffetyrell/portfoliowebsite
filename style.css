@@ -343,6 +343,7 @@
     display: none;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
   }
 
   .navlinks li {
@@ -360,6 +361,7 @@
     display: none;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
   }
 
   .navlinks li {
