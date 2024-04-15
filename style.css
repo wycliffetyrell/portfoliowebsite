@@ -55,7 +55,7 @@
 }
 
 .image{
-    position: relative;
+    
     text-align: center;
     margin: auto;
     width: 25rem; /* Adjust width as needed */
@@ -71,7 +71,7 @@
   }
 
 .about{
-    position: relative;
+  
     text-align: center;
     margin: 0 15rem;
 }
@@ -343,7 +343,6 @@
     display: none;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
   }
 
   .navlinks li {
@@ -354,6 +353,14 @@
   .navbar {
     flex-direction: column;
   }
+  .about{
+    padding: 2rem;
+    margin: auto;
+  }
+  .project{
+    padding: 2rem;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -361,7 +368,6 @@
     display: none;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
   }
 
   .navlinks li {
@@ -378,6 +384,17 @@
   }
 
   .about {
-    grid-template-columns: 1fr;
+    margin: auto;
+    padding: auto;
+  }
+  .project{
+    padding: 2rem;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800) {
+  .navlinks {
+    float: none;
+    display: block;
   }
 }
